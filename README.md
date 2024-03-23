@@ -1,4 +1,4 @@
-# CNN-BiLSTM with Time Delay Embedding for Univariate Stock Price Forecasting
+# CNN-BiLSTM with Time Delay Embedding for Multivariate Stock Price Forecasting
 
 This repository introduces an advanced model employing a unique integration of Convolutional Neural Networks (CNN) and Bidirectional Long Short-Term Memory (BiLSTM) networks, enhanced with Time Delay Embedding, for the task of univariate stock price prediction. Designed to address the intricacies of financial time series data, our approach leverages the strength of CNNs to identify local patterns and BiLSTM to capture long-term dependencies in stock prices. Specifically tailored for univariate forecasting, this model aims to predict future stock prices using only a single variable - the historical stock prices, thereby simplifying the complex task of stock market prediction with high precision and efficiency.
 
