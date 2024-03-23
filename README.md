@@ -1,8 +1,4 @@
-# CNN-BiLSTM
-This repository contains stock datasets of Microsoft (MSFT), NVIDIA (NVDA), and Apple (AAPL). It also includes the source code of our Hybrid Deep Learning model with the implementation of Phase Space Reconstruction technique.
-
-
-## CNN-BiLSTM with Time Delay Embedding for Univariate Stock Price Forecasting
+# CNN-BiLSTM with Time Delay Embedding for Univariate Stock Price Forecasting
 
 This repository introduces an advanced model employing a unique integration of Convolutional Neural Networks (CNN) and Bidirectional Long Short-Term Memory (BiLSTM) networks, enhanced with Time Delay Embedding, for the task of univariate stock price prediction. Designed to address the intricacies of financial time series data, our approach leverages the strength of CNNs to identify local patterns and BiLSTM to capture long-term dependencies in stock prices. Specifically tailored for univariate forecasting, this model aims to predict future stock prices using only a single variable - the historical stock prices, thereby simplifying the complex task of stock market prediction with high precision and efficiency.
 
@@ -12,17 +8,17 @@ The complexity of stock markets, driven by numerous factors, makes them a prime 
 
 ## Features
 
-Univariate Forecasting Focus: Specialized in predicting future stock prices using historical price data, simplifying data collection and preprocessing efforts.
-CNN-BiLSTM Architecture: Combines the pattern recognition capabilities of CNNs with the sequential data processing strength of BiLSTM networks for deep, nuanced understanding of price movements.
-Time Delay Embedding Technique: Utilizes embedding to enrich the model's input, enabling it to capture essential temporal patterns in a highly efficient manner.
-Efficient and Accurate: Designed to provide precise stock price forecasts while being computationally efficient, making it suitable for use in various computational environments.
-Technologies Used
-
-Python: For implementing the model and managing data processing.
-TensorFlow and Keras: Utilize these libraries for building and training the CNN-BiLSTM model.
-Pandas and NumPy: Essential for data manipulation and numerical computations.
-Matplotlib: For visualizing model performance and forecasting results.
-Scikit-learn: Used for data preprocessing, including normalization and performance metrics evaluation.
+- **Multivariate Forecasting Focus:** Specialized in predicting future stock prices using historical price data and multiple predictor variables within OHLCV datasets, simplifying data collection and preprocessing efforts.
+- **CNN-BiLSTM Architecture:** Combines the pattern recognition capabilities of CNNs with the sequential data processing strength of BiLSTM networks for deep, nuanced understanding of price movements.
+- **Time Delay Embedding Technique:** Utilizes embedding to enrich the model's input, enabling it to capture essential temporal patterns in a highly efficient manner.
+- **Efficient and Accurate:** Designed to provide precise stock price forecasts while being computationally efficient, making it suitable for use in various computational environments.
+- 
+## Technologies Used
+- **Python:** For implementing the model and managing data processing.
+- **TensorFlow and Keras:** Utilize these libraries for building and training the CNN-BiLSTM model.
+- **Pandas and NumPy:** Essential for data manipulation and numerical computations.
+- **Matplotlib:** For visualizing model performance and forecasting results.
+- **Scikit-learn:** Used for data preprocessing, including normalization and performance metrics evaluation.
 
 ## Getting Started
 
