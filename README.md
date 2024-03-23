@@ -12,7 +12,7 @@ The complexity of stock markets, driven by numerous factors, makes them a prime 
 - **CNN-BiLSTM Architecture:** Combines the pattern recognition capabilities of CNNs with the sequential data processing strength of BiLSTM networks for deep, nuanced understanding of price movements.
 - **Time Delay Embedding Technique:** Utilizes embedding to enrich the model's input, enabling it to capture essential temporal patterns in a highly efficient manner.
 - **Efficient and Accurate:** Designed to provide precise stock price forecasts while being computationally efficient, making it suitable for use in various computational environments.
-- 
+  
 ## Technologies Used
 - **Python:** For implementing the model and managing data processing.
 - **TensorFlow and Keras:** Utilize these libraries for building and training the CNN-BiLSTM model.
